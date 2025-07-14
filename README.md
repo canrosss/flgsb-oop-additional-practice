@@ -1,6 +1,6 @@
 # Employee Management System v0.1
 
-Características
+## Características
 	•	Registro y administración de empleados
 	•	Estructura básica lista para extender funcionalidades
 	•	Código organizado para facilitar mantenimiento y escalabilidad
