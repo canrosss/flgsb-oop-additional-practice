@@ -47,7 +47,13 @@ public class Employee {
 
     @Override
     public String toString(){
-        return "Employee {Name '" + this.name + "', age=" + this.age + ", salary=" + this.salary + "}";
+        return
+                "Employee\n" +
+                "---------------------\n"+
+                "Name    : " + this.name + "\n" +
+                "Age     : " + this.age + "\n" +
+                "Salary  : $" + this.salary + "\n" +
+                "----------------------\n";
 
     }
 }
