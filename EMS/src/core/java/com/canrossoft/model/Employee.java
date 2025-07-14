@@ -38,11 +38,20 @@ public class Employee {
     }
 
     public void setAge(int age) {
-        this.age = age;
+        if(age < 18 && age > 65)
+        {
+            this.age = age;
+        }else{
+           throw new IllegalArgumentException("Age must be between 18 & 65");
+        }
     }
 
     public void setSalary(double salary) {
-        this.salary = salary;
+        if(salary >= 0){
+            this.salary = salary;
+        }else{
+            throw new IllegalArgumentException("Salary must be greater than 0 ");
+        }
     }
 
     @Override
@@ -55,5 +64,18 @@ public class Employee {
                 "Salary  : $" + this.salary + "\n" +
                 "----------------------\n";
 
+    }
+
+
+    public double calculateAnnualSalary(int months){
+       double annualSalary = months * this.salary;
+       return annualSalary;
+    }
+
+    public void giveRaise(double percentage) {
+  //      System.out.println("Salary         : "+ this.salary);
+        this.salary = this.salary + (this.salary * percentage);
+//        System.out.printf("Porcentaje     : "+ "%.1f\n", (percentage*100));
+ //       System.out.println("Con incremento : "+ this.salary);
     }
 }

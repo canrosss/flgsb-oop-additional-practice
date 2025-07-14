@@ -13,6 +13,15 @@ public class Employee implements Cloneable {
     // Step 3: Create public getter methods for each variable
     // Hint: Use the format: public returnType getVariableName()
     
+            @Override
+            public String toString() {
+                 return "Employee {\n" +
+                     "  Name: '" + name + "',\n" +
+                      "  Age: " + age + ",\n" +
+                       "  Salary: " + salary + "\n" +
+                   "}";
+            }
+
     // Step 4: Create public setter methods for each variable
     // Hint: Use the format: public void setVariableName(parameter)
     // Add validation logic in the setter methods:
@@ -33,4 +42,24 @@ public class Employee implements Cloneable {
     // Step 8: Override the clone method to make Employee objects cloneable
     // Hint: @Override protected Object clone() throws CloneNotSupportedException
     // Return super.clone() to create a shallow copy of the object
+
+
+
+}
+
+
+
+public class Main {
+    protected static Employee e = new Employee("i", 19, 2000);
+    public static void main(String[] args) {
+        System.out.println("Welcome to EMS! - v0.1");
+        try {
+            e.setName("");
+        } catch (IllegalArgumentException ex) {
+            System.out.println(ex.getMessage());
+        }
+
+        System.out.println(e.toString());
+
+    }
 }
