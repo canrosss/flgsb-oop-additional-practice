@@ -1,9 +1,5 @@
 # coding-project-template
 
-<<<<<<< HEAD
-
-
-
 Características
 	•	Registro y administración de empleados
 	•	Estructura básica lista para extender funcionalidades
@@ -26,9 +22,7 @@ Las funciones básicas están en construcción y sujetas a cambios.
 
 Licencia
 
-Este proyecto está bajo la licencia MIT.
-=======
->>>>>>> 1d08474e553fd6ce9fa8b3326edc064884b7a567
+Este proyecto está bajo la licencia  Apache License - Version 2.0
 
 
 
