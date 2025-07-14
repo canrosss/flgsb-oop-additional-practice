@@ -47,7 +47,17 @@ public class Employee implements Cloneable {
 
 }
 
+--Manejo de una excepcion 
 
+import java.text.DecimalFormat;
+
+public class Main {
+    public static void main(String[] args) {
+        double salario = 23500.456;
+        DecimalFormat df = new DecimalFormat("#,###.00");
+        System.out.println("Salario: $" + df.format(salario));
+    }
+}
 
 public class Main {
     protected static Employee e = new Employee("i", 19, 2000);
