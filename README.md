@@ -1,14 +1,14 @@
 # Employee Management System v0.1
 
 ## Características
-	•	Registro y administración de empleados
-	•	Estructura básica lista para extender funcionalidades
-	•	Código organizado para facilitar mantenimiento y escalabilidad
+	• Registro y administración de empleados
+	• Estructura básica lista para extender funcionalidades
+	• Código organizado para facilitar mantenimiento y escalabilidad
 
-Uso
-	1.	Clona el repositorio
-	2.	Instala las dependencias necesarias
-	3.	Ejecuta el proyecto con tu herramienta de desarrollo preferida
+## Uso
+	1. Clona el repositorio
+	2. Instala las dependencias necesarias
+	3. Ejecuta el proyecto con tu herramienta de desarrollo preferida
 
 
 git clone https://github.com/tuusuario/coding-project-template.git
