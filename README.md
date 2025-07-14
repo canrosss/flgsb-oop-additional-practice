@@ -1,4 +1,4 @@
-# coding-project-template
+# Employee Management System v0.1
 
 Características
 	•	Registro y administración de empleados
@@ -26,7 +26,7 @@ Este proyecto está bajo la licencia  Apache License - Version 2.0
 
 
 
-# Employee Management System v0.1
+
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
